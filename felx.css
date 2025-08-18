@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 350vh;
+    width: 100%;
+    border: 2px solid black;
+}
+#background-color{
+    height: 350vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.893),rgba(0, 0, 8, 0.142));
+}
+.image{
+    height: 105vh;
+    width: 100%;
+    border: 2px solid black;
+    background-image: url(screen_01.png);
+    background-size: cover; 
+}
+.logo>img{
+    height: 100px;
+    width: 170px;
+    margin-left: 60px;
+    margin-top: 0px;
+}
+.box{
+    height: 35px;
+    width: 6%;
+    margin-left: 80%;
+    position: absolute;
+    top: 20px;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 3px;
+}
+.boxes{
+    height: 36px;
+    width: 6%;
+    margin-left: 90%;
+    position: absolute;
+    top: 20px;
+    background-color: rgb(247, 5, 5);
+    color: aliceblue;
+    border-radius: 4px;
+}
+.basic{
+    position: absolute;
+    top: 10%;
+    left: 31%;
+    color: aliceblue;
+    font-size: 50px;
+}
+#background-color>h3{
+    position: absolute;
+    top: 13%;
+    left: 36%;
+    color: aliceblue;
+    font-size: 50px;
+}
+#background-color>h2{
+    position: absolute;
+    top: 16.2%;
+    left: 40%;
+    color: aliceblue;
+    font-size: 16px;
+}
+#background-color>h4{
+    position: absolute;
+    top: 18%;
+    left: 31%;
+    color: aliceblue;
+    font-size: 16px;
+}
+#background-color>input{
+    height: 2.5%;
+    width: 25%;
+    position: absolute;
+    top: 19%;
+    left: 31%;
+    font-size:larger;
+    background-color: transparent;
+    backdrop-filter:blur(5px);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+#background-color>input::placeholder{
+    color: rgb(207, 204, 204);
+}
+#background-color>h5{
+    font-size:x-large;
+    position: absolute;
+    bottom: 68%;
+    margin-left: 70px;
+    color: aliceblue;
+}
+.btn{
+    height: 2.5%;
+    width: 15%;
+    position: absolute;
+    top: 19%;
+    left: 56.5%;
+    font-size:larger;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+main{
+    background-color: red;
+    height: 100px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    margin-top: 39%;
+}
+#container{
+    height: 100px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    position: relative;
+    bottom:71.6%;
+    background-image: linear-gradient(rgb(3, 3, 72),black);
+}
+.container-basic{
+    height: 67%;
+    background-image: linear-gradient(rgb(0, 0, 26),rgb(3, 3, 72),black);
+}
+#image-container{
+    position: absolute;
+    top: 32%;
+    height: 290px;
+    width: 90vw;
+    padding: 0 30px 0 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cards{
+    height: 200px;
+    width: 100%;
+    margin-left: 43px;
+}
+.cards>img{
+    height: 190px;
+    width: 150px;
+    border-radius: 6px;
+}
+.cards>img:hover{
+    transform: scale(1.1);
+}
+.cards>p{
+    font-size: 110px;
+    position: relative;
+    bottom: 56%;
+    right: 15%;
+    z-index: 10;
+    color: black;
+    text-shadow: 2px 2px  1px whitesmoke;
+}
+#image-container>div>h1{
+    position: absolute;
+    top: 100%;
+    left: 60px;
+    font-size:30px;
+    color: aliceblue;
+}
+#page{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: 57%;
+}
+.open{
+    height:95%;
+    width: 44%;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-image: linear-gradient(rgb(20, 17, 62),rgb(49, 20, 49),rgb(20, 17, 62));
+    margin-left: -9%;
+    position: relative;
+    left: 4.5%;
+    /* padding: 0px 30px 0px 30px; */
+}
+.open>p{
+    color: white;
+    font-size: x-large;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.open>h3{
+    color: whitesmoke;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#page-container{
+    height: 30%;
+    width: 100%;
+    background-image: linear-gradient(rgb(15, 15, 43),rgb(3, 3, 9));
+    position: relative;
+    bottom: 55%;
+}
+#page-container>h3{
+    position: absolute;
+    top: 16.2%;
+    left: 30%;
+    color: aliceblue;
+    font-size: 17px;
+}
+#page-container>input{
+    height: 50px;
+    width: 37%;
+    position: absolute;
+    top: 21%;
+    left: 25%;
+    font-size:larger;
+    background-color:transparent;
+    backdrop-filter:blur(5px);
+    border: 1px solid rgb(132, 131, 131);
+    border-radius: 5px;
+    padding: 10px;
+}
+#page-container>button{
+    height: 51px;
+    width: 15%;
+    position: absolute;
+    top: 21%;
+    left: 62.5%;
+    font-size:larger;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+    color: aliceblue;
+}
+#page-container>p{
+    align-items: center;
+    align-content:space-evenly;
+    color: aliceblue;
+     padding: 250px 0px 10px 50px ;
+   margin-left: 20px;
+}
+footer{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+position: absolute;
+top: 310%;
+width: 100vw;
+color: aliceblue;
+right: 100px;
+}
+footer>ul{
+    list-style: none;
+    line-height: 2;
+}
+footer>ul>li{
+    text-decoration: underline;
+}
+footer>ul>li:hover{
+    cursor: pointer;
+}
+.foot{
+    height: 35px;
+    width: 6%;
+    margin-left: 8.5%;
+    position: absolute;
+    top: 350%;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 3px;
+}
